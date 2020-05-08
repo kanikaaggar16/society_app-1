@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+
+    tools:context=".notification">
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        />
+
+    <EditText
+        android:id="@+id/message_id"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edit_round"
+        android:layout_marginTop="150dp"
+        android:lines="5"
+        android:padding="9dp"
+        android:gravity="top"
+        android:inputType="textCapSentences|textImeMultiLine"
+        android:hint="ENTER MESSAGE" />
+    <EditText
+        android:id="@+id/phone_id"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edit_round"
+        android:layout_below="@id/message_id"
+        android:layout_marginTop="40dp"
+        android:padding="9dp"
+        android:inputType="number"
+        android:hint="ENTER PHONENUMBER" />
+    <Button
+        android:id="@+id/send_id"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/phone_id"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_round"
+        android:text="SEND"
+        android:layout_marginLeft="150dp"
+        android:onClick="onSend"
+
+        android:textAllCaps="false" />
+    <ImageView
+        android:id="@+id/call_id"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_phone_black"
+        android:layout_below="@+id/send_id"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="150dp"/>
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/send_id"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/button_round"
+        android:text="BACK"
+        android:layout_marginLeft="80dp"
+
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/send_id"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/button_round"
+        android:text="SEND MORE"
+        android:layout_marginLeft="210dp"
+
+        android:textAllCaps="false" />
+
+
+
+</RelativeLayout>

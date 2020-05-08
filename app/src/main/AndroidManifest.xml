@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.society_app">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="society_app"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".aboutsociety"></activity>
+        <activity android:name=".contatcus" />
+        <activity android:name=".aboutus" />
+        <activity android:name=".viewnotice" />
+        <activity android:name=".addnotice" />
+        <activity android:name=".viewmeeting" />
+        <activity android:name=".addmeeting" />
+        <activity android:name=".viewmaintenance" />
+        <activity android:name=".addmaintenance" />
+        <activity android:name=".viewexpenses" />
+        <activity android:name=".addexpenses" />
+        <activity android:name=".notification" />
+        <activity android:name=".notice" />
+        <activity android:name=".viewmember" />
+        <activity android:name=".addmember" />
+        <activity android:name=".expenses" />
+        <activity android:name=".meetingdetails" />
+        <activity android:name=".maintenancedetails" />
+        <activity android:name=".memberdetails" />
+        <activity android:name=".adminfeautres" />
+        <activity android:name=".login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

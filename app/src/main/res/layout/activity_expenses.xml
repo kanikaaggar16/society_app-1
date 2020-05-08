@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".expenses"
+    android:background="@drawable/background">
+    <ImageView
+        android:id="@+id/addexpense_id"
+        android:layout_width="150dp"
+        android:clickable="true"
+        android:layout_height="200dp"
+        android:src="@drawable/addexpenses"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:id="@+id/viewexpense_id"
+        android:layout_width="150dp"
+        android:clickable="true"
+
+        android:src="@drawable/viewexpenses"
+        android:scaleType="centerCrop"
+        android:layout_height="200dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="230dp"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/addexpense_id"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="ADD EXPENSE"
+        android:textSize="15dp"
+        android:textColor="#2F2F2F"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/viewexpense_id"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="250dp"
+        android:text="VIEW EXPENSES"
+        android:textSize="15dp"
+        android:textColor="#2F2F2F"/>
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="50dp"
+        android:layout_centerInParent="true"
+        android:text="BACK"
+        android:background="@drawable/button_round"/>
+
+
+
+</RelativeLayout>

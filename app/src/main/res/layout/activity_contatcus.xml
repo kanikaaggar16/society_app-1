@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background1"
+    android:layout_height="match_parent"
+    tools:context=".contatcus">
+
+
+    <TextView
+        android:id="@+id/query_id"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="FOR ANY QUERIES
+        CALL US "
+
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:textSize="40dp"
+        android:textColor="#A52A2A"/>
+
+
+    <ImageView
+        android:id="@+id/my_id"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/query_id"
+        android:src="@drawable/ic_phone_black"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"/>
+</RelativeLayout>

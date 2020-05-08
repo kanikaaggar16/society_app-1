@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/first"
+        android:title="HOME"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/society"
+        android:title="ABOUT SOCIETY"
+        android:icon="@drawable/ic_location_city"/>
+    <item
+        android:id="@+id/second"
+        android:title="ABOUT US"
+        android:icon="@drawable/ic_group"/>
+    <item
+        android:id="@+id/third"
+        android:title="CONTACT US"
+        android:icon="@drawable/ic_contact"/>
+
+</menu>

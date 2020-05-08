@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".notice">
+    <ImageView
+
+        android:id="@+id/addnotice_id"
+        android:layout_width="150dp"
+        android:clickable="true"
+        android:layout_height="200dp"
+        android:src="@drawable/addnotice"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:id="@+id/viewnotice_id"
+        android:layout_width="150dp"
+        android:clickable="true"
+
+        android:src="@drawable/viewnotice"
+        android:scaleType="centerCrop"
+        android:layout_height="200dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="230dp"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/addnotice_id"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="ADD NOTICE"
+        android:textSize="15dp"
+        android:textColor="#2F2F2F"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/viewnotice_id"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="260dp"
+        android:text="VIEW NOTICE"
+        android:textSize="15dp"
+        android:textColor="#2F2F2F"/>
+
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="50dp"
+        android:layout_centerInParent="true"
+        android:text="BACK"
+        android:background="@drawable/button_round"/>
+
+</RelativeLayout>
