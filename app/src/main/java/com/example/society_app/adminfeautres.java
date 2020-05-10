@@ -77,9 +77,9 @@ public class adminfeautres extends AppCompatActivity {
 
 
         lsitems=new ArrayList<>();
-        lsitems.add(new items("MEMBER DETAILS",R.drawable.memberdetails));
+        lsitems.add(new items("MEMBER DETAILS",R.drawable.profile));
         lsitems.add(new items("MAINTENANCE DETAILS",R.drawable.maintenance));
-        lsitems.add(new items("MEETING DETAILS",R.drawable.meetingdetails));
+        lsitems.add(new items("MEETING DETAILS",R.drawable.meeting));
         lsitems.add(new items("EXPENSES",R.drawable.expenses));
         lsitems.add(new items("NOTICE",R.drawable.notice));
         lsitems.add(new items("NOTIFICATION",R.drawable.notification));

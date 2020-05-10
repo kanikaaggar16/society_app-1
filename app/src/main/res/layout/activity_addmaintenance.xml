@@ -51,7 +51,7 @@
         android:layout_height="40dp"
         android:layout_below="@+id/date_id"
         android:layout_marginTop="60dp"
-        android:background="@drawable/button_round"
+        android:background="@drawable/background"
         android:text="SUBMIT"
         android:layout_marginLeft="80dp"
 
@@ -64,7 +64,7 @@
         android:layout_below="@+id/date_id"
         android:layout_marginLeft="200dp"
         android:layout_marginTop="60dp"
-        android:background="@drawable/button_round"
+        android:background="@drawable/background"
         android:text="BACK"
         android:textAllCaps="false" />
     <Button
@@ -74,7 +74,7 @@
         android:layout_below="@+id/date_id"
         android:layout_marginLeft="150dp"
         android:layout_marginTop="150dp"
-        android:background="@drawable/button_round"
+        android:background="@drawable/background"
         android:text="ADD MORE"
         android:textAllCaps="false" />
 

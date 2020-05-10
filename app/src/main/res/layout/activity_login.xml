@@ -6,9 +6,6 @@
     android:layout_height="match_parent"
     android:background="@drawable/background"
     tools:context=".login">
-    <include layout="@layout/toolbar"
-        android:id="@+id/toolbar"
-        />
     <ImageView
         android:layout_width="match_parent"
         android:layout_marginTop="70dp"

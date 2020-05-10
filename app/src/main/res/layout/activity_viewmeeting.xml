@@ -6,9 +6,6 @@
     android:layout_height="match_parent"
     android:background="@drawable/background1"
     tools:context=".viewmeeting">
-    <include layout="@layout/toolbar"
-        android:id="@+id/toolbar"
-        />
     <ListView
         android:id="@+id/lsview"
         android:layout_marginTop="80dp"

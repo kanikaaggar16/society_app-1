@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
         android:layout_marginLeft="50dp"
-        android:text="This application is prepared by Dhruv Kothari,Kanika Agarwal,Dhruv Nakum"
+        android:text="This application is prepared by\n Dhruv Kothari,\nKanika Agarwal,\nDhruv Nakum"
         android:textSize="30dp"
         android:textColor="#A52A2A" />
 </RelativeLayout>

@@ -37,7 +37,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginLeft="50dp"
         android:text="ADD MAINTENANCE"
-        android:textSize="15dp"
+        android:textSize="13dp"
         android:textColor="#2F2F2F"/>
     <TextView
         android:id="@+id/tv2"
@@ -47,7 +47,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginLeft="260dp"
         android:text="VIEW MAINTENANCE"
-        android:textSize="15dp"
+        android:textSize="13dp"
         android:textColor="#2F2F2F"/>
 
 
